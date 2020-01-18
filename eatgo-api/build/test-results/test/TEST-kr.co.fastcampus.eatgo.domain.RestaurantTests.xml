@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kr.co.fastcampus.eatgo.domain.RestaurantTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-18T04:40:54" hostname="DESKTOP-K8OB8RS" time="0.073">
-  <properties/>
-  <testcase name="creation()" classname="kr.co.fastcampus.eatgo.domain.RestaurantTests" time="0.02"/>
-  <testcase name="information()" classname="kr.co.fastcampus.eatgo.domain.RestaurantTests" time="0.052"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
