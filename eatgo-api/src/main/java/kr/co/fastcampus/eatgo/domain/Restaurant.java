@@ -16,6 +16,10 @@ public class Restaurant {
         this.address = address;                         // 파라매터 address를 Restaurant class의 맴버변수 address에 저장하는 함수
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getName() {   // getName() 메서드로, Restaurant class의 맴버변수 name를 리턴해 준다.
         return name;
     }
@@ -28,7 +32,4 @@ public class Restaurant {
         return name + " in " + address;
     }
 
-    public Long getId() {
-        return id;
-    }
 }
