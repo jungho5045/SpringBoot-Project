@@ -21,4 +21,9 @@ public class RestaurantController {
         return restaurants;                                                                     // restaurants List를 반환한다.
     }
 
+    @GetMapping("/restaurants/1")
+    public Restaurant detail() {
+        return null;
+    }
+
 }
