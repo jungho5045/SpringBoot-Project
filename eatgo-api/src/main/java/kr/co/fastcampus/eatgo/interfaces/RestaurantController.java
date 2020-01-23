@@ -19,7 +19,7 @@ public class RestaurantController {
 
         restaurants.add(restaurant);                                                            // 생성한 restaurant 객체를 restaurants List에 add 해준다.
 
-        return restaurants;                                                                     // restaurants List를 반환한다.test
+        return restaurants;                                                                     // restaurants List를 반환한다.
     }
 
     @GetMapping("/restaurants/{id}")
