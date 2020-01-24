@@ -2,16 +2,19 @@ package kr.co.fastcampus.eatgo.interfaces;
 
 import kr.co.fastcampus.eatgo.domain.Restaurant;
 import kr.co.fastcampus.eatgo.domain.RestaurantRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController     // Rest API를 이용하는 Rest Controller를 만든다는 어노테이션 @RestController를 선언한다.
+@RestController                                                                                 // @Component의 일종, Rest API를 이용하는 Rest Controller를 만든다는 어노테이션 @RestController를 선언한다.
 public class RestaurantController {
 
-    private RestaurantRepository repository = new RestaurantRepository();                       // domain Layer에 RestaurantRepository를 만들어 사용한다.
+    @Autowired                                                                                  // @Autowired 어노테이션을 이용하면 2번째 밑에줄처럼 객체를 선언하지 않아도 객체를 사용할 수 있다.
+    private RestaurantRepository repository;
+    // private RestaurantRepository repository = new RestaurantRepository();                       // domain Layer에 RestaurantRepository를 만들어 사용한다.
 
     @GetMapping("/restaurants")                                                                 // ui Layer로 "/restaurants"로 클라이언트가 접근을 하였을때 하위 기능과 맴핑을 시켜준다.
     public List<Restaurant> list() {                                                            // Restaurant의 목록을 얻는 List() 메서드를 선언한다.
