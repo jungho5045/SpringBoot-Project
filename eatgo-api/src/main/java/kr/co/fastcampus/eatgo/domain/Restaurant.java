@@ -1,10 +1,14 @@
 package kr.co.fastcampus.eatgo.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Restaurant {
 
     private final Long id;
     private final String name;
     private final String address;
+    private List<MenuItem> menuItems = new ArrayList<MenuItem>();
 
 //    public Restaurant(String name) {    // 생성자 파라매터로 name을 받아, Restaurant class의 맴버변수 name에 저장하는 함수
 //        this.name = name;
@@ -16,7 +20,7 @@ public class Restaurant {
         this.address = address;                         // 파라매터 address를 Restaurant class의 맴버변수 address에 저장하는 함수
     }
 
-    public Long getId() {
+    public Long getId() {       // getId() 메서드로, Restaurant class의 맴버변수 id를 리턴해 준다.
         return id;
     }
 
@@ -32,4 +36,18 @@ public class Restaurant {
         return name + " in " + address;
     }
 
+    public List<MenuItem> getMenuItems() {
+        return menuItems;
+    }
+
+    public void addMenuItem(MenuItem menuItem) {
+        menuItems.add(menuItem);
+    }
+
+    public void setMenuItem(List<MenuItem> menuItems) {
+        for (MenuItem menuItem : menuItems){
+            addMenuItem(menuItem);
+        }
+
+    }
 }
