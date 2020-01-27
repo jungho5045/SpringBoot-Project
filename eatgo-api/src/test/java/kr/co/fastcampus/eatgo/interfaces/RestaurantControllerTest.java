@@ -1,6 +1,8 @@
 package kr.co.fastcampus.eatgo.interfaces;
 
+import kr.co.fastcampus.eatgo.application.RestaurantService;
 import kr.co.fastcampus.eatgo.domain.MenuItemRepository;
+import kr.co.fastcampus.eatgo.domain.MenuItemRepositoryImpl;
 import kr.co.fastcampus.eatgo.domain.RestaurantRepository;
 import kr.co.fastcampus.eatgo.domain.RestaurantRepositoryImpl;
 import org.junit.jupiter.api.Test;
@@ -10,8 +12,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
-
-import javax.swing.*;
 
 import static org.hamcrest.core.StringContains.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -26,10 +26,13 @@ class RestaurantControllerTest {
     @Autowired                                       // mvc객체를 만들지 않아도 알아서? SpringBoot에서 알아서 넣어줄 수 있도록 @Autowired 어노테이션을 선언한다.
     private MockMvc mvc;                             // mvc객체를 이용할 수 있게 해준다.
 
+    @SpyBean(RestaurantService.class)
+    private RestaurantService restaurantService;
+
     @SpyBean(RestaurantRepositoryImpl.class)                                         // Controller에 원하는 객체를 주입할 수 있다./ 의존성 주입
     private RestaurantRepository restaurantRepository;
 
-    @SpyBean(MenuElement.class)
+    @SpyBean(MenuItemRepositoryImpl.class)
     private MenuItemRepository menuItemRepository;
 
     @Test
