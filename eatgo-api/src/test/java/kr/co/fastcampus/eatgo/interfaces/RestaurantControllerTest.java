@@ -8,6 +8,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -84,12 +85,14 @@ class RestaurantControllerTest {
     public void create() throws Exception {
 //        Restaurant restaurant = new Restaurant(1234L, "BeRyong", "Seoul");
 
-        mvc.perform(post("/restaurants")).
-                andExpect(status().isCreated()).
-                andExpect(header().string("location", "/restaurants/1234")).
-                andExpect(content().string("{}"));
+        mvc.perform(post("/restaurants")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"BeRyong\",\"address\":\"Busan\"}"))
+                .andExpect(status().isCreated())
+                .andExpect(header().string("location", "/restaurants/1234"))
+                .andExpect(content().string("{}"));
 
-        verify(restaurantService).addRestaurant(any());         // test
+        verify(restaurantService).addRestaurant(any());
     }
 
 }
