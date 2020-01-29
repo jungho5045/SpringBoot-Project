@@ -89,7 +89,7 @@ class RestaurantControllerTest {
                 andExpect(header().string("location", "/restaurants/1234")).
                 andExpect(content().string("{}"));
 
-        verify(restaurantService).addRestaurant(any());
+        verify(restaurantService).addRestaurant(any());         // test
     }
 
 }
