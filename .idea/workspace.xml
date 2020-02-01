@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d2e81a-e92c-4059-b8ea-57e19623eb87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/MenuItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/MenuItemRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/MenuItemRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItemRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantRepositoryImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +272,7 @@
       <workItem from="1580115210965" duration="8387000" />
       <workItem from="1580126461792" duration="3388000" />
       <workItem from="1580191772728" duration="13737000" />
-      <workItem from="1580372568209" duration="16115000" />
+      <workItem from="1580372568209" duration="16872000" />
     </task>
     <task id="LOCAL-00001" summary="[feat] &quot;Chapter 02_Hello world, TDD, REST API 수강 완료&quot;">
       <created>1579319740623</created>
@@ -436,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580382734847</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[refactor] &quot;Chapter 06_JPA 수강 중, Spring Boot JPA, H2 Database 연동하기&quot;">
+      <created>1580480391734</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580480391734</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +450,8 @@
     <MESSAGE value="[refactor] &quot;Chapter 05_가게추가1 수강 중, RestaurantController에 create() 추가&quot;" />
     <MESSAGE value="[refactor] &quot;Chapter 05_가게추가1 수강 완료, 가게추가 API(Test -&gt; coding -&gt; http 확인)&quot;" />
     <MESSAGE value="[refactor] &quot;Chapter 05_가게추가2 수강 완료, POST 방식으로 가게추가를 완성시키기 위해 Service, Repository 및 Test Code 구현&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[refactor] &quot;Chapter 05_가게추가2 수강 완료, POST 방식으로 가게추가를 완성시키기 위해 Service, Repository 및 Test Code 구현&quot;" />
+    <MESSAGE value="[refactor] &quot;Chapter 06_JPA 수강 중, Spring Boot JPA, H2 Database 연동하기&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[refactor] &quot;Chapter 06_JPA 수강 중, Spring Boot JPA, H2 Database 연동하기&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="30" y="71" width="814" height="729" key="#Intentions" timestamp="1579865932126">
@@ -507,11 +500,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1579331030937" />
-    <state x="238" y="6" key="CommitChangelistDialog2" timestamp="1580382733018">
+    <state x="238" y="6" key="CommitChangelistDialog2" timestamp="1580480389478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="256" y="54" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580302047700" />
-    <state x="238" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580382733018" />
+    <state x="238" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580480389478" />
     <state x="263" y="203" key="EnvironmentVariablesDialog" timestamp="1580128063761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -568,11 +561,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1580116820240" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1580382737158">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1580480394419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="184" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580302051621" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580382737158" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580480394419" />
     <state x="459" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1580372650619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
