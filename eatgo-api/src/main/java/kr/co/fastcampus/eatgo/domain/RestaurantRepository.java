@@ -12,3 +12,4 @@ public interface RestaurantRepository extends CrudRepository<Restaurant, Long> {
 
     Restaurant save(Restaurant restaurant);
 }
+

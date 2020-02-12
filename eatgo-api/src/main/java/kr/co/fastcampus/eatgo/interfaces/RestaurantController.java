@@ -34,6 +34,7 @@ public class RestaurantController {
         return restaurant;                                                                      // restaurant 객체를 반환한다.
     }
 
+
     @PostMapping("restaurants")
     public ResponseEntity<?> create(@RequestBody Restaurant resource)
             throws URISyntaxException {                               // POST 요청에 따른 상태를 같이 반환해주기 위해 ResponseEntity를 반환타입으로 설정한다.

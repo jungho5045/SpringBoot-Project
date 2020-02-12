@@ -1,13 +1,23 @@
 package kr.co.fastcampus.eatgo.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class Restaurant {
 
+    @Id
+    @GeneratedValue
     private Long id;
+
     private String name;
     private String address;
+
+    @Transient  // 임시로 실행한다는 어노테이션(DB 저장 안함)
     private List<MenuItem> menuItems = new ArrayList<MenuItem>();
 
 //    public Restaurant(String name) {    // 생성자 파라매터로 name을 받아, Restaurant class의 맴버변수 name에 저장하는 함수
