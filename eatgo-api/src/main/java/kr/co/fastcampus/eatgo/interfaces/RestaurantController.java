@@ -35,19 +35,27 @@ public class RestaurantController {
     }
 
 
-    @PostMapping("restaurants")
+    @PostMapping("/restaurants")
     public ResponseEntity<?> create(@RequestBody Restaurant resource)
             throws URISyntaxException {                               // POST 요청에 따른 상태를 같이 반환해주기 위해 ResponseEntity를 반환타입으로 설정한다.
-//        String name = resource.getName();
-//        String address = resource.getAddress();
         String name = resource.getName();
         String address = resource.getAddress();
 
-        Restaurant restaurant = new Restaurant(name, address);
-        restaurantService.addRestaurant(restaurant);
+        Restaurant restaurant = restaurantService.addRestaurant(
+                new Restaurant(name, address));
 
         URI location = new URI("/restaurants/" + restaurant.getId());
         return ResponseEntity.created(location).body("{}");
+    }
+
+    @PatchMapping("/restaurants/{id}")
+    public String update(@PathVariable("id") Long id, @RequestBody Restaurant resouce){
+        String name = resouce.getName();
+        String address = resouce.getAddress();
+
+        restaurantService.updateRestaurant(id, name, address);
+
+        return "{}";
     }
 
 }

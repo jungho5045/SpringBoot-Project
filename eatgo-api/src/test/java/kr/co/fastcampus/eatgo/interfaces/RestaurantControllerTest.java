@@ -19,8 +19,7 @@ import static org.hamcrest.core.StringContains.containsString;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @ExtendWith(SpringExtension.class)          // JUnit4 @RunWith 대신 JUnit5 @ExtendWith 사용, GET 요청시 어디에 요청할지 정한다(SpringExtention에 요청한다.)
@@ -34,6 +33,7 @@ class RestaurantControllerTest {
     @MockBean
     private RestaurantService restaurantService;
 
+    // 가게 목록
     @Test
     public void list() throws Exception {            // perform에서 예외가 발생할 수 있어서 throws Exception을 해준다.
         List<Restaurant> restaurants = new ArrayList<>();                                       // Mock Object(가짜 객체) 부분
@@ -51,6 +51,7 @@ class RestaurantControllerTest {
             ));
     }
 
+    // 가게 상세
     @Test
     public void detail() throws Exception {
         Restaurant restaurant1 = new Restaurant(1004L, "JOKER House", "Seoul");
@@ -81,9 +82,14 @@ class RestaurantControllerTest {
                 ));
     }
 
+    // 가게 추가
     @Test
     public void create() throws Exception {
 //        Restaurant restaurant = new Restaurant(1234L, "BeRyong", "Seoul");
+        given(restaurantService.addRestaurant(any())).will(invocation -> {
+           Restaurant restaurant = invocation.getArgument(0);
+           return new Restaurant(1234L, restaurant.getName(), restaurant.getAddress());
+        });
 
         mvc.perform(post("/restaurants")
                 .contentType(MediaType.APPLICATION_JSON)
@@ -93,6 +99,18 @@ class RestaurantControllerTest {
                 .andExpect(content().string("{}"));
 
         verify(restaurantService).addRestaurant(any());
+    }
+
+    // 가게 수정
+    @Test
+    public void update() throws Exception {
+        mvc.perform(patch("/restaurants/1004")
+            .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"JOKER Bar\", \"address\":\"Busan\"}")        )
+                .andExpect(status().isOk());
+
+        verify(restaurantService).updateRestaurant(1004L, "JOKER Bar", "Busan");
+
     }
 
 }
