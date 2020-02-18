@@ -9,7 +9,11 @@ class RestaurantTests {
 
     @Test
     public void creation() {
-        Restaurant restaurant = new Restaurant(1004L,"Bob zip", "Seoul");  // 객체 생성시 생성자로 가게이름 설정
+        Restaurant restaurant = Restaurant.builder()
+                .id(1004L)
+                .name("Bob zip")
+                .address("Seoul")
+                .build();
 
         assertThat(restaurant.getId(), is(1004L));
         assertThat(restaurant.getName(), is("Bob zip"));    // restaurant.getName()시 return값으로 "Bob zip"이면 true, 아니면 false
@@ -18,8 +22,14 @@ class RestaurantTests {
 
     @Test
     public void information() {
-        Restaurant restaurant = new Restaurant(1004L, "Bob zip", "Seoul"); // 객체 생성 시 생성자로 가게이름, 가게주소 설정
+        Restaurant restaurant = Restaurant.builder()
+                .id(1004L)
+                .name("Bob zip")
+                .address("Seoul")
+                .build();
+
         assertThat(restaurant.getInformation(), is("Bob zip in Seoul"));    // restaurant.getName()시 return값으로 "Bob zip in Seoul"이면 true, 아니면 false
+
     }
 
 }

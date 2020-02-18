@@ -13,22 +13,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/application/RestaurantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/application/RestaurantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/MenuItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/Restaurant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/interfaces/RestaurantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/interfaces/RestaurantController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/domain/RestaurantTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/domain/RestaurantTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/classes/kr.co.fastcampus.eatgo.domain.RestaurantRepositoryImplTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/classes/kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/classes/kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/packages/kr.co.fastcampus.eatgo.domain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/TEST-kr.co.fastcampus.eatgo.domain.RestaurantRepositoryImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/packages/kr.co.fastcampus.eatgo.interfaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/packages/kr.co.fastcampus.eatgo.interfaces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/TEST-kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/TEST-kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/MenuItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/domain/RestaurantTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +119,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.55402297" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -138,6 +143,26 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Test All">
+    <configuration name="RestaurantControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":eatgo-api:cleanTest" />
+            <option value=":eatgo-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RestaurantControllerTest.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,12 +183,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestaurantControllerTest.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestaurantControllerTest.detail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.update&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.detail&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -178,12 +203,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestaurantRepositoryImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestaurantControllerTest.list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.domain.RestaurantRepositoryImplTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.list&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -231,19 +256,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EatgoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eatgo.eatgo-api.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.co.fastcampus.eatgo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="kr.co.fastcampus.eatgo.EatgoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EatgoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eatgo.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kr.co.fastcampus.eatgo.EatgoApplication" />
@@ -252,21 +264,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.RestaurantRepositoryImplTest" />
       <item itemvalue="JUnit.Test All" />
       <item itemvalue="Spring Boot.EatgoApplication" />
-      <item itemvalue="Spring Boot.EatgoApplication (1)" />
-      <item itemvalue="Gradle.RestaurantControllerTest.update" />
       <item itemvalue="Gradle.RestaurantServiceTest.updateRestaurant" />
+      <item itemvalue="Gradle.RestaurantControllerTest.list" />
+      <item itemvalue="Gradle.RestaurantControllerTest.detail" />
       <item itemvalue="Gradle.RestaurantControllerTest.create" />
+      <item itemvalue="Gradle.RestaurantControllerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EatgoApplication (1)" />
+        <item itemvalue="Gradle.RestaurantControllerTest" />
         <item itemvalue="Gradle.RestaurantControllerTest.create" />
+        <item itemvalue="Gradle.RestaurantControllerTest.detail" />
+        <item itemvalue="Gradle.RestaurantControllerTest.list" />
         <item itemvalue="Gradle.RestaurantServiceTest.updateRestaurant" />
-        <item itemvalue="Gradle.RestaurantControllerTest.update" />
-        <item itemvalue="Gradle.RestaurantRepositoryImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +318,7 @@
       <workItem from="1580372568209" duration="32213000" />
       <workItem from="1580654784789" duration="7336000" />
       <workItem from="1580815986435" duration="35299000" />
-      <workItem from="1581585246667" duration="11011000" />
+      <workItem from="1581585246667" duration="28528000" />
     </task>
     <task id="LOCAL-00001" summary="[feat] &quot;Chapter 02_Hello world, TDD, REST API 수강 완료&quot;">
       <created>1579319740623</created>
@@ -497,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581495748050</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[refactor] &quot;Chapter 05_가게수정 수강 완료&quot;&#10;1. 가게수정 API 스펙 정의&#10;2. UI Layer Controller 코딩&#10;3. Application Layer Service 코딩&#10;4. @Transactional Anotation을 적용하여 명시적으로 save하지 않고도 Transaction번위 벗어날 시 자동 저장할 수 있도록 구현&#10;5. 모든 코딩은 TDD 방식을 활용하여 Test를 먼저 진행하였음">
+      <created>1581863194615</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1581863194616</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,13 +542,14 @@
     <MESSAGE value="[refactor] &quot;Chapter 06_JPA 수강 완료&quot;&#10;1. Build.gradle에 의존성 추가(JPA, H2)&#10;2. 전체 코드 Test 진행&#10;3. MenuItemRepositoryImpl.java 파일 삭제&#10;4. MenuItem.java 파일 수정(@Entity, @Id, @GeneratedValue 추가)&#10;5. RestaurantRepository.java 파일 수정(CrudRepository 상속)&#10;6. RestaurantRepositoryImpl.java 파일 삭제&#10;7. RestaurantRepositoryImplTest.java 파일 삭제&#10;8. RestaurantService.java 파일 수정(findById 부분 .orElse(null) 처리)&#10;9. RestaurantServiceTest.java 파일 수정(findById 부분 willReturn(of(restaurant)) 처리&#10;10. Restaurant.java 파일 수정(@Entity, @Id, @GeneratedValue 추가)&#10;11. Terminal 확인(RestaurantController.java restaurant 객체 생성 시 &quot;1234L&quot; 삭제 후 POST 시 데이터 생성 확인)" />
     <MESSAGE value="[refactor] &quot;Chapter 07_Front-End 수강 중&quot;&#10;1. Node.js 설정 및 실행&#10;    - npm init&#10;    - index.html 생성&#10;    - debServer 의존성 설치&#10;    - Server 실행을 위한 package.json 수정(scripts 명령어 수정)&#10;    - src 디렉터리 생성(index.js 생성)&#10;    - port 지정을 위한 package.json 수정(scripts start 명령어 수정)&#10;    - html 확인" />
     <MESSAGE value="[refactor] &quot;Chapter 07_Front-end 수강 완료&quot;&#10;1. Front-end&#10;2. Node.js 설치, 설정 및 실행&#10;3. 가게 목록을 보여 줄 간단한 javascript 작성&#10;4. Back-end API를 Front-end에서 어떻게 활용하는지 간략하게 알아보았다" />
-    <option name="LAST_COMMIT_MESSAGE" value="[refactor] &quot;Chapter 07_Front-end 수강 완료&quot;&#10;1. Front-end&#10;2. Node.js 설치, 설정 및 실행&#10;3. 가게 목록을 보여 줄 간단한 javascript 작성&#10;4. Back-end API를 Front-end에서 어떻게 활용하는지 간략하게 알아보았다" />
+    <MESSAGE value="[refactor] &quot;Chapter 05_가게수정 수강 완료&quot;&#10;1. 가게수정 API 스펙 정의&#10;2. UI Layer Controller 코딩&#10;3. Application Layer Service 코딩&#10;4. @Transactional Anotation을 적용하여 명시적으로 save하지 않고도 Transaction번위 벗어날 시 자동 저장할 수 있도록 구현&#10;5. 모든 코딩은 TDD 방식을 활용하여 Test를 먼저 진행하였음" />
+    <option name="LAST_COMMIT_MESSAGE" value="[refactor] &quot;Chapter 05_가게수정 수강 완료&quot;&#10;1. 가게수정 API 스펙 정의&#10;2. UI Layer Controller 코딩&#10;3. Application Layer Service 코딩&#10;4. @Transactional Anotation을 적용하여 명시적으로 save하지 않고도 Transaction번위 벗어날 시 자동 저장할 수 있도록 구현&#10;5. 모든 코딩은 TDD 방식을 활용하여 Test를 먼저 진행하였음" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="30" y="71" width="814" height="729" key="#Intentions" timestamp="1579865932126">
+    <state x="30" y="0" width="814" height="824" key="#Intentions" timestamp="1582027324797">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="30" y="71" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1579865932126" />
+    <state x="30" y="0" width="814" height="824" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1582027324797" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1579271917789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -576,15 +596,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580864884836" />
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582028340126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582028340126" />
     <state x="515" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579331030937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1579331030937" />
-    <state x="419" y="13" key="CommitChangelistDialog2" timestamp="1581495709939">
+    <state x="419" y="0" key="CommitChangelistDialog2" timestamp="1581863192234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="88" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580998030285" />
-    <state x="419" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581495709939" />
+    <state x="419" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581863192234" />
     <state x="263" y="203" key="EnvironmentVariablesDialog" timestamp="1580128063761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -593,50 +617,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580128010836" />
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1581862085804">
+    <state width="1493" height="89" key="GridCell.Tab.0.bottom" timestamp="1582032217564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580301799039" />
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581862085804" />
-    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1581862085804">
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
+    <state width="1493" height="89" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582032217564" />
+    <state width="1493" height="89" key="GridCell.Tab.0.center" timestamp="1582032217563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580301799039" />
-    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581862085804" />
-    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1581862085804">
+    <state width="1493" height="267" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
+    <state width="1493" height="89" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582032217563" />
+    <state width="1493" height="89" key="GridCell.Tab.0.left" timestamp="1582032217563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580301799039" />
-    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581862085804" />
-    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1581862085804">
+    <state width="1493" height="267" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
+    <state width="1493" height="89" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582032217563" />
+    <state width="1493" height="89" key="GridCell.Tab.0.right" timestamp="1582032217563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580301799039" />
-    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581862085804" />
-    <state width="1493" height="267" key="GridCell.Tab.1.bottom" timestamp="1581861599601">
+    <state width="1493" height="267" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
+    <state width="1493" height="89" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582032217563" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582027802653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="267" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581861599601" />
-    <state width="1493" height="267" key="GridCell.Tab.1.center" timestamp="1581861599600">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582027802653" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582027802652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="267" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581861599600" />
-    <state width="1493" height="267" key="GridCell.Tab.1.left" timestamp="1581861599600">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582027802652" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582027802652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="267" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581861599600" />
-    <state width="1493" height="267" key="GridCell.Tab.1.right" timestamp="1581861599600">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582027802652" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582027802653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="267" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581861599600" />
-    <state x="254" y="87" key="SettingsEditor" timestamp="1580381918943">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582027802653" />
+    <state x="254" y="87" key="SettingsEditor" timestamp="1582013957989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="254" y="87" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580381918943" />
+    <state x="254" y="87" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582013957989" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1580116820240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -645,11 +669,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="186" y="116" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1581844765868" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581495758414">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581863198562">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="184" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580998092594" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581495758414" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581863198562" />
     <state x="459" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581585253851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -671,6 +695,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="166" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1580118670902" />
+    <state x="460" y="143" width="616" height="538" key="find.popup" timestamp="1582027659104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="460" y="143" width="616" height="538" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582027659104" />
     <state x="553" y="277" key="git4idea.rebase.GitRebaseDialog" timestamp="1581844798503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -13,6 +13,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.core.StringContains.containsString;
@@ -37,7 +38,12 @@ class RestaurantControllerTest {
     @Test
     public void list() throws Exception {            // perform에서 예외가 발생할 수 있어서 throws Exception을 해준다.
         List<Restaurant> restaurants = new ArrayList<>();                                       // Mock Object(가짜 객체) 부분
-        restaurants.add(new Restaurant(1004L, "JOKER House", "Seoul"));
+        restaurants.add(Restaurant.builder()
+                .id(1004L)
+                .name("JOKER House")
+                .address("Seoul")
+                .build());
+
 
         given(restaurantService.getRestaurants()).willReturn(restaurants);
 
@@ -54,10 +60,21 @@ class RestaurantControllerTest {
     // 가게 상세
     @Test
     public void detail() throws Exception {
-        Restaurant restaurant1 = new Restaurant(1004L, "JOKER House", "Seoul");
-        restaurant1.addMenuItem(new MenuItem("Kimchi"));
+        Restaurant restaurant1 = Restaurant.builder()
+                .id(1004L)
+                .name("JOKER House")
+                .address("Seoul")
+                .build();
+        MenuItem menuItem = MenuItem.builder()
+                .name("Kimchi")
+                .build();
+        restaurant1.setMenuItems(Arrays.asList(menuItem));
 
-        Restaurant restaurant2 = new Restaurant(2020L, "Cyber Food", "Seoul");
+        Restaurant restaurant2 = Restaurant.builder()
+                .id(2020L)
+                .name("Cyber Food")
+                .address("Seoul")
+                .build();
 
         given(restaurantService.getRestaurant(1004L)).willReturn(restaurant1);
         given(restaurantService.getRestaurant(2020L)).willReturn(restaurant2);
@@ -85,10 +102,13 @@ class RestaurantControllerTest {
     // 가게 추가
     @Test
     public void create() throws Exception {
-//        Restaurant restaurant = new Restaurant(1234L, "BeRyong", "Seoul");
         given(restaurantService.addRestaurant(any())).will(invocation -> {
            Restaurant restaurant = invocation.getArgument(0);
-           return new Restaurant(1234L, restaurant.getName(), restaurant.getAddress());
+           return Restaurant.builder()
+                    .id(1234L)
+                    .name(restaurant.getName())
+                    .address(restaurant.getAddress())
+                    .build();
         });
 
         mvc.perform(post("/restaurants")
