@@ -101,7 +101,7 @@ class RestaurantControllerTest {
 
     // 가게 추가
     @Test
-    public void create() throws Exception {
+    public void createWithValidData() throws Exception {
         given(restaurantService.addRestaurant(any())).will(invocation -> {
            Restaurant restaurant = invocation.getArgument(0);
            return Restaurant.builder()
@@ -121,9 +121,17 @@ class RestaurantControllerTest {
         verify(restaurantService).addRestaurant(any());
     }
 
+    @Test
+    public void createWithInvalidData() throws Exception {
+        mvc.perform(post("/restaurants")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"\",\"address\":\"\"}"))
+                .andExpect(status().isBadRequest());
+    }
+
     // 가게 수정
     @Test
-    public void update() throws Exception {
+    public void updateWithValidData() throws Exception {
         mvc.perform(patch("/restaurants/1004")
             .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"name\":\"JOKER Bar\", \"address\":\"Busan\"}")        )
@@ -131,6 +139,22 @@ class RestaurantControllerTest {
 
         verify(restaurantService).updateRestaurant(1004L, "JOKER Bar", "Busan");
 
+    }
+
+    @Test
+    public void updateWithInvalidData() throws Exception {
+        mvc.perform(patch("/restaurants/1004")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"\", \"address\":\"\"}")        )
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    public void updateWithoutName() throws Exception {
+        mvc.perform(patch("/restaurants/1004")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"name\":\"\", \"address\":\"Busan\"}")        )
+                .andExpect(status().isBadRequest());
     }
 
 }

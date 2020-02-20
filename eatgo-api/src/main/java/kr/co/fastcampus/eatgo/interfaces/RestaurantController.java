@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
@@ -36,7 +37,7 @@ public class RestaurantController {
 
 
     @PostMapping("/restaurants")
-    public ResponseEntity<?> create(@RequestBody Restaurant resource)
+    public ResponseEntity<?> create(@Valid @RequestBody Restaurant resource)
             throws URISyntaxException {                               // POST 요청에 따른 상태를 같이 반환해주기 위해 ResponseEntity를 반환타입으로 설정한다.
         Restaurant restaurant = restaurantService.addRestaurant(
                 Restaurant.builder()
@@ -49,7 +50,7 @@ public class RestaurantController {
     }
 
     @PatchMapping("/restaurants/{id}")
-    public String update(@PathVariable("id") Long id, @RequestBody Restaurant resouce){
+    public String update(@PathVariable("id") Long id, @Valid @RequestBody Restaurant resouce){
         String name = resouce.getName();
         String address = resouce.getAddress();
 
