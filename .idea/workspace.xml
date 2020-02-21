@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d2e81a-e92c-4059-b8ea-57e19623eb87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/RestaurantNotFondException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/interfaces/RestaurantErrorAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/RestaurantNotFondException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantErrorAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,19 +17,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/Restaurant$RestaurantBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/Restaurant$RestaurantBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/domain/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/application/RestaurantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/application/RestaurantService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/interfaces/RestaurantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/main/kr/co/fastcampus/eatgo/interfaces/RestaurantController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/classes/kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/classes/kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/packages/kr.co.fastcampus.eatgo.interfaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/packages/kr.co.fastcampus.eatgo.interfaces.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/TEST-kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/TEST-kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/domain/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/EatgoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/domain/RestaurantTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/classes/java/test/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/classes/kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/reports/tests/test/packages/kr.co.fastcampus.eatgo.interfaces.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/TEST-kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/application/RestaurantService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/main/java/kr/co/fastcampus/eatgo/interfaces/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/application/RestaurantServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eatgo-api/src/test/java/kr/co/fastcampus/eatgo/interfaces/RestaurantControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +81,9 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,17 +135,37 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="kr.co.fastcampus.eatgo.domain" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JungHo_Lee\Desktop\eatgo\eatgo-api" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kr.co.fastcampus.eatgo.domain" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="kr.co.fastcampus.eatgo.domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JungHo_Lee\Desktop\eatgo\eatgo-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RestaurantControllerTest.updateWithoutName">
+  <component name="RunManager" selected="Gradle.EatgoApplicationTests">
+    <configuration name="EatgoApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.EatgoApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":eatgo-api:cleanTest" />
+            <option value=":eatgo-api:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RestaurantControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,52 +186,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestaurantControllerTest.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestaurantControllerTest.detailWithNotExisted" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.create&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":eatgo-api:cleanTest" />
-            <option value=":eatgo-api:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RestaurantControllerTest.detail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.detail&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":eatgo-api:cleanTest" />
-            <option value=":eatgo-api:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RestaurantControllerTest.list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.list&quot;" />
+        <option name="scriptParameters" value="--tests &quot;kr.co.fastcampus.eatgo.interfaces.RestaurantControllerTest.detailWithNotExisted&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -235,6 +226,25 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SpringBoot-Project [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Test All" type="JUnit" factoryName="JUnit">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -256,21 +266,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test All" />
-      <item itemvalue="Spring Boot.EatgoApplication" />
-      <item itemvalue="Gradle.RestaurantControllerTest.list" />
-      <item itemvalue="Gradle.RestaurantControllerTest.detail" />
-      <item itemvalue="Gradle.RestaurantControllerTest.create" />
       <item itemvalue="Gradle.RestaurantControllerTest" />
       <item itemvalue="Gradle.RestaurantControllerTest.updateWithoutName" />
+      <item itemvalue="Gradle.RestaurantControllerTest.detailWithNotExisted" />
+      <item itemvalue="Gradle.SpringBoot-Project [test]" />
+      <item itemvalue="JUnit.Test All" />
+      <item itemvalue="Spring Boot.EatgoApplication" />
+      <item itemvalue="Gradle.EatgoApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EatgoApplicationTests" />
+        <item itemvalue="Gradle.SpringBoot-Project [test]" />
+        <item itemvalue="Gradle.RestaurantControllerTest.detailWithNotExisted" />
         <item itemvalue="Gradle.RestaurantControllerTest.updateWithoutName" />
         <item itemvalue="Gradle.RestaurantControllerTest" />
-        <item itemvalue="Gradle.RestaurantControllerTest.create" />
-        <item itemvalue="Gradle.RestaurantControllerTest.detail" />
-        <item itemvalue="Gradle.RestaurantControllerTest.list" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +320,8 @@
       <workItem from="1580372568209" duration="32213000" />
       <workItem from="1580654784789" duration="7336000" />
       <workItem from="1580815986435" duration="35299000" />
-      <workItem from="1581585246667" duration="35523000" />
+      <workItem from="1581585246667" duration="46452000" />
+      <workItem from="1582267215752" duration="1684000" />
     </task>
     <task id="LOCAL-00001" summary="[feat] &quot;Chapter 02_Hello world, TDD, REST API 수강 완료&quot;">
       <created>1579319740623</created>
@@ -515,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582032821923</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="[feat] &quot;Chapter 06_Validation 수강 완료&quot;&#10;1. Validation이란(사용자가 입력하는 데이터가 올바른지 검증하는 단계)&#10;2. Controller Test 진행(Restaurant create(), update()의 성공/실패 두가지 경우)&#10;3. Controller 수정(create(), update() 두 함수 부분에 @Valid Annotation 추가)&#10;4. 속성에 접근하는 경우 검증만으로 끝나지 않으므로 name, address 두 속성 부분에 @NotEmpty Annotation 추가">
+      <created>1582190608460</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1582190608460</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +561,9 @@
     <MESSAGE value="[refactor] &quot;Chapter 07_Front-end 수강 완료&quot;&#10;1. Front-end&#10;2. Node.js 설치, 설정 및 실행&#10;3. 가게 목록을 보여 줄 간단한 javascript 작성&#10;4. Back-end API를 Front-end에서 어떻게 활용하는지 간략하게 알아보았다" />
     <MESSAGE value="[refactor] &quot;Chapter 05_가게수정 수강 완료&quot;&#10;1. 가게수정 API 스펙 정의&#10;2. UI Layer Controller 코딩&#10;3. Application Layer Service 코딩&#10;4. @Transactional Anotation을 적용하여 명시적으로 save하지 않고도 Transaction번위 벗어날 시 자동 저장할 수 있도록 구현&#10;5. 모든 코딩은 TDD 방식을 활용하여 Test를 먼저 진행하였음" />
     <MESSAGE value="[feat] &quot;Chapter 06_Lombok 수강 완료&quot;&#10;1. Lombok이란&#10;2. Lombok의 @Getter, @Setter 이용하여 속성에 대한 getter, setter 기능 삭제&#10;3. Lombok의 @Builder, @NoArgsConstructor, @AllArgsConstructor를 이용하여 생성자 삭제 및 생성자를 이용하는 Test Code 수정(Build Pattern 적용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat] &quot;Chapter 06_Lombok 수강 완료&quot;&#10;1. Lombok이란&#10;2. Lombok의 @Getter, @Setter 이용하여 속성에 대한 getter, setter 기능 삭제&#10;3. Lombok의 @Builder, @NoArgsConstructor, @AllArgsConstructor를 이용하여 생성자 삭제 및 생성자를 이용하는 Test Code 수정(Build Pattern 적용)" />
+    <MESSAGE value="[feat] &quot;Chapter 06_Validation 수강 완료&quot;&#10;1. Validation이란(사용자가 입력하는 데이터가 올바른지 검증하는 단계)&#10;2. Controller Test 진행(성공/실패 두가지 경우)&#10;3. Controller 수정(@Valid Annotation 추가)&#10;4. 검증만으로 끝나지 않을 경우 속성에 @NotEmpty Annotation 추가" />
+    <MESSAGE value="[feat] &quot;Chapter 06_Validation 수강 완료&quot;&#10;1. Validation이란(사용자가 입력하는 데이터가 올바른지 검증하는 단계)&#10;2. Controller Test 진행(Restaurant create(), update()의 성공/실패 두가지 경우)&#10;3. Controller 수정(create(), update() 두 함수 부분에 @Valid Annotation 추가)&#10;4. 속성에 접근하는 경우 검증만으로 끝나지 않으므로 name, address 두 속성 부분에 @NotEmpty Annotation 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] &quot;Chapter 06_Validation 수강 완료&quot;&#10;1. Validation이란(사용자가 입력하는 데이터가 올바른지 검증하는 단계)&#10;2. Controller Test 진행(Restaurant create(), update()의 성공/실패 두가지 경우)&#10;3. Controller 수정(create(), update() 두 함수 부분에 @Valid Annotation 추가)&#10;4. 속성에 접근하는 경우 검증만으로 끝나지 않으므로 name, address 두 속성 부분에 @NotEmpty Annotation 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="30" y="0" width="814" height="824" key="#Intentions" timestamp="1582027324797">
@@ -604,11 +624,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1579331030937" />
-    <state x="419" y="0" key="CommitChangelistDialog2" timestamp="1582032817774">
+    <state x="185" y="0" key="CommitChangelistDialog2" timestamp="1582190606222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="88" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580998030285" />
-    <state x="419" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582032817774" />
+    <state x="185" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582190606222" />
     <state x="263" y="203" key="EnvironmentVariablesDialog" timestamp="1580128063761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -617,50 +637,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580128010836" />
-    <state width="1493" height="169" key="GridCell.Tab.0.bottom" timestamp="1582190158426">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1582268265054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
-    <state width="1493" height="169" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582190158426" />
-    <state width="1493" height="169" key="GridCell.Tab.0.center" timestamp="1582190158425">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582268265054" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1582268265054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
-    <state width="1493" height="169" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582190158425" />
-    <state width="1493" height="169" key="GridCell.Tab.0.left" timestamp="1582190158425">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582268265054" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1582268265054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
-    <state width="1493" height="169" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582190158425" />
-    <state width="1493" height="169" key="GridCell.Tab.0.right" timestamp="1582190158425">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582268265054" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1582268265054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1581868272230" />
-    <state width="1493" height="169" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582190158425" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582027802653">
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582268265054" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582267183908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582027802653" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582027802652">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582267183908" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582267183908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582027802652" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582027802652">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582267183908" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582267183908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582027802652" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582027802653">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582267183908" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582267183908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="318" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580196451851" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582027802653" />
-    <state x="254" y="87" key="SettingsEditor" timestamp="1582013957989">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582267183908" />
+    <state x="254" y="87" key="SettingsEditor" timestamp="1582266519297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="254" y="87" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582013957989" />
+    <state x="254" y="87" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582266519297" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1580116820240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -669,16 +689,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="186" y="116" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1581844765868" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582033111505">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582190611113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="184" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580998092594" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582033111505" />
-    <state x="459" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581585253851">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582190611113" />
+    <state x="459" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582267222193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="299" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580816011708" />
-    <state x="459" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581585253851" />
+    <state x="459" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582267222193" />
     <state x="488" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579323759638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

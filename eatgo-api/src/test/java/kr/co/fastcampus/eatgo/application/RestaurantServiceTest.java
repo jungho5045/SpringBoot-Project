@@ -1,9 +1,6 @@
 package kr.co.fastcampus.eatgo.application;
 
-import kr.co.fastcampus.eatgo.domain.MenuItem;
-import kr.co.fastcampus.eatgo.domain.MenuItemRepository;
-import kr.co.fastcampus.eatgo.domain.Restaurant;
-import kr.co.fastcampus.eatgo.domain.RestaurantRepository;
+import kr.co.fastcampus.eatgo.domain.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -76,7 +73,7 @@ class RestaurantServiceTest {
     }
 
     @Test
-    public void getRestaurnat(){                                                        // Restaurant 정보를 얻는 Test 메서드
+    public void getRestaurnatWithExisted(){                                             // 존재하는 Restaurant 정보를 얻는 Test 메서드
         Restaurant restaurnat = restaurantService.getRestaurant(1004L);             // RestaurantService에서 id를 매개변수로 가게 상세 정보를 가져오는 코드
 
         assertThat(restaurnat.getId(), is(1004L));                               // RestaurantService에서 가져온 가게 정보가 맞는지 확인하는 코드
@@ -84,6 +81,11 @@ class RestaurantServiceTest {
         MenuItem menuItem = restaurnat.getMenuItems().get(0);
 
         assertThat(menuItem.getName(), is("Kimchi"));                               // RestaurantService에서 가져온 가게 정보가 맞는지 확인하는 코드
+    }
+
+    // @Test(expected = RestaurantNotFondException.class)
+    public void getRestaurnatWithNotExisted(){                                         // 존재하지 않는 Restaurant 정보를 얻는 Test 메서드
+        restaurantService.getRestaurant(404L);
     }
 
     @Test

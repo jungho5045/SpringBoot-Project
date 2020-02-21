@@ -31,7 +31,9 @@ public class RestaurantController {
     @GetMapping("/restaurants/{id}")                                                            // ui Layer로 "/restaurants/{id}"로 클라이언트가 접근을 하였을때 하위 기능과 맴핑을 시켜준다.
     public Restaurant detail(@PathVariable("id") Long id) {                                     // @PathVariable로 id를 선언하고 전달받은 매개변수 id를 매칭시켜준다.
 
+
         Restaurant restaurant = restaurantService.getRestaurant(id);                            // 기본정보 + 메뉴정보를 한번에 돌려준다, 하나의 가게 정보를 얻을 수 있다.
+
         return restaurant;                                                                      // restaurant 객체를 반환한다.
     }
 
